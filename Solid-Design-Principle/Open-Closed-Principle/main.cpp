@@ -109,7 +109,6 @@ template <typename T> struct AndSpecification : Specification<T>
 	{
 		return first.is_satisfied(item) && second.is_satisfied(item);
 	}
-
 };
 
 
